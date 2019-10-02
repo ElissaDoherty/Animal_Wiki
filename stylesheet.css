@@ -1,0 +1,271 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+ul {
+    margin: 0;
+}
+h1{ 
+    margin: 0;
+      font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+h2{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+h3{
+    margin: 0;
+     font-family: 'Raleway', sans-serif;
+}
+h4{
+    margin: 0;
+   font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+line-height: 22px;
+
+}
+
+.container {
+    width:1230px;
+    margin: 0 auto;
+}
+.section_header {
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+.brown {
+    background-color: saddlebrown;
+    color: white;
+    height: 500px;
+    width: 100%;        
+    }
+    
+
+
+
+header{
+    background-color: saddlebrown;
+    color: white;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    
+}
+.cream {
+    background-color: tan;
+    height: 500px;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+
+#description {
+}
+
+
+
+#biology {
+
+}
+
+.hover {
+        width: 600px;
+        height: 400px;
+        position: relative;
+        display: inline-block;
+        float: right;
+        width: 45%;
+        padding-right: 30px;
+
+    }
+
+.img-top{
+    width: 95%;
+    height: 95%;
+}
+
+    .hover .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .hover:hover .img-top {
+        display: inline;
+    }
+
+.hover_note{
+    background-color: darkslategrey;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: -10px;
+}
+
+
+.accordion label {
+    display:block;
+    cursor: pointer;
+    border-style: double;
+    background-color: beige;
+    padding: 7px;
+    text-align: center;
+}
+
+.hiddentext{
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.accordion p {
+  opacity: 0;
+}
+
+#checkboxA:checked ~ .hiddentext {
+  display: block;
+  opacity: 1;
+}
+#checkboxE:checked ~ .hiddentext {
+  display: block;
+  opacity: 1;
+}
+#checkboxN:checked ~ .hiddentext {
+  display: block;
+  opacity: 1;
+}
+#checkboxJ:checked ~ .hiddentext {
+  display: block;
+  opacity: 1;
+}
+input#checkboxE {
+  display: none;
+}
+input#checkboxA {
+  display: none;
+}
+input#checkboxN {
+  display: none;
+}
+input#checkboxJ {
+  display: none;
+}
+
+#table{
+    border-color: black;
+    border-style: double;
+    border-spacing: 20px;
+    margin: 5px 30px;
+    background-color: beige;
+}
+
+td{
+    color: black;
+}
+
+.containermap:hover .imagemap{
+opacity: .3;
+}
+
+.containermap:hover .middle{
+    opacity: 1;
+}
+
+
+.behaviour_image3{
+    position: relative;
+    left: 150px;
+    top: -403px;
+}
+
+.col_left {
+    float: left;
+    width: 45%;
+    padding-left: 30px;
+}
+
+.col_right {
+    float: right;
+    width: 45%;
+    padding-right: 30px;
+}
+
+.img_col_three {
+    width:400px;
+    height: 400px;
+    padding: 5px;
+    float: left;
+}
+
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    top: -300px;
+    padding: 0px 31px;
+ }
+.container1:hover .image1{
+opacity: .3;
+}
+
+.container1:hover .middle{
+    opacity: 1;
+}
+.container2:hover .image2{
+opacity: .3;
+}
+
+.container2:hover .middle{
+    opacity: 1;
+
+}
+
+.container3:hover .image3{
+opacity: .3;
+}
+
+.container3:hover .middle{
+    opacity: 1;
+}
+
+#middlehover{
+    position: relative;
+    top: -420px;
+}
+
+
+footer {
+    background-color: tan;
+    text-align: right;
+    padding: 10px;
+}
+
